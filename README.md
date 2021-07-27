@@ -7,9 +7,7 @@ To compile and run tests you will need: quadprog package
 pip install quadprog
 
 # Making graphs
-After installing the required packages and downloading the datasets and adding the path to the dataset, you can run jobscriptNTK.sh and jobscriptCNTK.sh on a compute server to make graphs. It may take several hours. 
-
-Equivalently you can run the following command to run the experiments on NTK Sketch:
+After installing the required packages and downloading the datasets and adding the path to the dataset, you can run the following command to run the experiments on NTK Sketch:
 
 python run_NTKSketch_experiments.py --layers=1 --samples=3 --problem_type=regress --first_logm=10 --last_logm=14 --tensor_degree=4 --lambdaa=0.3 --device_=cpu --input_dataset="./path to the dataset/" --output=NTKGraph.pdf
 

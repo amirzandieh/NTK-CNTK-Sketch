@@ -6,7 +6,7 @@ To compile and run tests you will need: quadprog package
 
 pip install quadprog
 
-Furhthermore the Gradient Features experiments use autograd-hacks that can be cloned from the following repo:
+Furthermore, the Gradient Features experiments use autograd-hacks that can be cloned from the following repo:
 https://github.com/cybertronai/autograd-hacks.git
 
 
